@@ -4,6 +4,7 @@ import pickle
 st.write("""
 # Heart Attack Prediction
  """)
+pip install pickle
 
 svm_classifier = open('Attack_Model.pkl','rb')
 classifier = pickle.load(svm_classifier)
